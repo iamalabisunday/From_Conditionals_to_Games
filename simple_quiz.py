@@ -46,7 +46,6 @@ while True:
             print("Error: Option must be between A and D")
             continue
 
-        # Option validated; check answer and break out of input loop
         if answer == correct_answer:
             print("=" * 50)
             print("Congratulations! You are correct!")
